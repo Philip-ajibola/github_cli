@@ -1,13 +1,13 @@
-package dto.request;
+package com.devs.dto.response;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
 @Setter
+@Getter
 @Builder
-public class LoginRequest {
+public class LoginResponse {
     private String username;
-    private String password;
+    private boolean success;
 }

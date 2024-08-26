@@ -1,4 +1,4 @@
-package dto.request;
+package com.devs.dto.request;
 
 import lombok.Builder;
 import lombok.Getter;

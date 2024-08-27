@@ -17,6 +17,7 @@ import static java.time.LocalDateTime.now;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
